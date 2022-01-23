@@ -21,7 +21,7 @@
     </div>
      <div class="facebook__right">
        <div class="facebook__right__upper"><img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"/></div>
-       <div class="facebook__right__lower">{{text}}</div>
+       <div class="facebook__right__lower" v-if="Object.keys(text).length">{{text}}</div>
     </div>
   </div>
 </template>
