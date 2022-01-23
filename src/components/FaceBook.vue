@@ -76,6 +76,10 @@ export default {
       border: 1px solid #dddfe2;
       border-radius: 4px;
       font-size: 17px;
+      @media only screen and (max-width: 769px){
+        width:92%;
+      }
+
     }
     }
     .button {
@@ -100,7 +104,7 @@ export default {
     padding-bottom: 40px;
     }
     .create-account {
-      margin-top:6px;
+      margin-top:14px;
      button {
        color:white;
       background-color: #42b72a;
@@ -118,6 +122,9 @@ export default {
     width: 700px;
     &__upper{
      width: 280px;
+    }
+    img{
+      margin-left: -34px;
     }
   }
 }
